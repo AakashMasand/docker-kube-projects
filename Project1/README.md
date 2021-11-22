@@ -1,5 +1,5 @@
 # Project 1 - Creating a Production-Grade Workflow with CI and Deployment with AWS
-- [ ] Create a React Application. Basically, generate a React Application.
+- [X] Create a React Application. Basically, generate a React Application.
 - [ ] Create a Dockerfile.dev and understand test scenarios for the Docker container.
 - [ ] Create a Dockerfile for the React App.
 - [ ] Setup TravisCI for Continuous Intergration.
