@@ -25,5 +25,5 @@ Build process took 219.5s which is definitely long. Things we can do:
 ### Docker Volumes
 ```
 docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>
-``
+```
 Basically with this command the /app/node_modules will be bookmarked and docker will not map anything against it.
