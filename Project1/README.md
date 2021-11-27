@@ -58,3 +58,20 @@ Run Steps:
 - Use nginx
 - Copy the results of the npm run build to nginx (/usr/share/nginx/html)
 - Start nginx
+
+## Task 4 - Setup TravisCI for Continuous Intergration
+
+### CI/CD Goal
+
+Github --> Feature Branch --> Master Branch --> TravisCI --> AWS Hosting
+
+### TravisCI Setup
+
+Basically, we need a travis.yml file
+
+Steps:
+
+- Tell travis we need the docker service running
+- Build our image using docker file.dev
+- Tell travis how to basically run our test-suite
+- Tell travis how to deploy code to AWS

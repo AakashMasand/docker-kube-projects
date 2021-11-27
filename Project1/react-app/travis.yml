@@ -1,5 +1,3 @@
-#travis
-
 language: generic
 sudo: required # we need superuser permissions
 serices:
