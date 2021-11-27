@@ -6,4 +6,4 @@ COPY . .
 RUN npm run build #/app/build will have all the files that we need for production
 
 FROM nginx
-COPY --from=builder /app/build /usr/share/nginx/html #from documentation to put static content
+COPY --from=builder /app/build /usr/share/nginx/html
