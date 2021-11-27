@@ -3,9 +3,9 @@
 - [X] Create a React Application. Basically, generate a React Application.
 - [X] Create a Dockerfile.dev and docker-compose.yml to understand test scenarios for the Docker container.
 - [X] Create a Dockerfile for the React App.
-- [ ] Setup TravisCI for Continuous Intergration.
-- [ ] Setup AWS Elastic Beanstalk.
-- [ ] Deploy Application on AWS Elastic Beanstalk.
+- [X] Setup TravisCI for Continuous Intergration.
+- [X] Setup AWS Elastic Beanstalk.
+- [X] Deploy Application on AWS Elastic Beanstalk.
 
 ## Task 1 - Create a React Application. Basically, generate a React Application.
 
@@ -75,3 +75,7 @@ Steps:
 - Build our image using docker file.dev
 - Tell travis how to basically run our test-suite
 - Tell travis how to deploy code to AWS
+
+## Task 5 - Setup AWS Elastic Beanstalk
+AWS would not let me setup an account on my email ID, hence, did not continue with this, however, I have added the code for the same in .travis.yml.
+
