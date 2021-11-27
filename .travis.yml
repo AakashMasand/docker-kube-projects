@@ -11,3 +11,16 @@ before_install:
 
 script:
   - docker run -e CI=true akashmasand/reactapp npm run test -- --coverage
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-west-2
+  app: "docker"
+  env: "Docker-env"
+  bucket_name: "<copy-the-bucket-name>" #Travis is going to zip everything and push it to s3
+  bucket_path: "docker"
+  on:
+    branch: master
+access_key_id: $AWS_ACCESS_KEY
+secret_access_key:
+  secure: "AWS_ACCESS_KEY"
