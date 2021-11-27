@@ -8,6 +8,3 @@ serices:
 
 before_install:
   - docker build -t akashmasand/reactapp -f Dockerfile.dev .
-
-script:
-  - docker run -e CI = true akashmasand/reactapp npm run test -- --coverage
